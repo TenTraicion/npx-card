@@ -47,7 +47,7 @@ const data = {
     handle: chalk.white("@TenTraicion"),
     work: `${chalk.white("A Programmer from Abyss")} ${chalk
         .hex("#2b82b2")
-        .bold("Solvinux Solution Inc.")}`,
+        .bold("Solvinux Solutions, Inc.")}`,
     twitter: chalk.gray("https://twitter.com/") + chalk.cyan("TenTraicion"),
     github: chalk.gray("https://github.com/") + chalk.green("Temraicion"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("TenTraicion"),
