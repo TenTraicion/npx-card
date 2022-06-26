@@ -1,10 +1,11 @@
 {
-  "name": "tentraicion",
+  "name": "@tentraicion/tentraicion",
   "version": "4.0.3",
   "description": "A personal card for TenTraicion",
+  "author": "TenTraicion <tentraicion@gmail.com> (https://tentraicion.github.io)",
   "main": "card.js",
   "bin": {
-    "anmol": "./card.js"
+    "tentraicion": "./card.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,9 @@
   "scripts": {
     "test": "node card.js",
     "pub": "npm version major & npm publish"
+  },
+  "publishConfig": {
+    "@tentraicion:registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "boxen": "^4.2.0",
@@ -32,6 +36,5 @@
     "npx card",
     "business card"
   ],
-  "author": "TenTraicion <tentraicion@gmail.com> (https://tentraicion.github.io)",
   "license": "ISC"
 }
