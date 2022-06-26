@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: 16
+          node-version: 12
       - run: npm ci
       - run: npm test
   publish-gpr:
@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: 16
+          node-version: 12
           registry-url: https://npm.pkg.github.com/
           scope: "@tentraicion"
       - run: npm install
