@@ -49,7 +49,7 @@ const data = {
     .hex("#2b82b2")
     .bold("Solvinux Solutions, Inc.")}`,
   twitter: chalk.gray("https://twitter.com/") + chalk.cyan("TenTraicion"),
-  github: chalk.gray("https://github.com/") + chalk.green("Temraicion"),
+  github: chalk.gray("https://github.com/") + chalk.green("TenTraicion"),
   linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("TenTraicion"),
   web: chalk.cyan("https://TenTraicion.github.io/"),
   npx: chalk.red("npx") + " " + chalk.white("tentraicion"),
