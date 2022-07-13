@@ -51,6 +51,7 @@ const data = {
   twitter: chalk.gray("https://twitter.com/") + chalk.cyan("TenTraicion"),
   github: chalk.gray("https://github.com/") + chalk.green("TenTraicion"),
   linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("TenTraicion"),
+  project: chalk.gray("https://TenTraicion.github.io/") + chalk.redBright("Hibi-Ciento"),
   web: chalk.cyan("https://TenTraicion.github.io/"),
   npx: chalk.red("npx") + " " + chalk.white("tentraicion"),
 
@@ -58,6 +59,7 @@ const data = {
   labelTwitter: chalk.white.bold("    Twitter:"),
   labelGitHub: chalk.white.bold("     GitHub:"),
   labelLinkedIn: chalk.white.bold("   LinkedIn:"),
+  labelProject: chalk.white.bold("    Project:"),
   labelWeb: chalk.white.bold("        Web:"),
   labelCard: chalk.white.bold("       Card:"),
 };
