@@ -1,6 +1,6 @@
 {
   "name": "@tentraicion/tentraicion",
-  "version": "5.0.2",
+  "version": "5.0.3",
   "description": "A personal card for TenTraicion",
   "author": "TenTraicion <tentraicion@gmail.com> (https://tentraicion.github.io)",
   "main": "card.js",
