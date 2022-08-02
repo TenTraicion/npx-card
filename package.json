@@ -19,7 +19,6 @@
     "@tentraicion:registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    "@tentraicion/tentraicion": "^4.0.8",
     "boxen": "^4.2.0",
     "chalk": "^4.1.0",
     "clear": "^0.1.0",
